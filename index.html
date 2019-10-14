@@ -24,10 +24,30 @@
     <div class="main-content">
       <img class="home-image" height="92" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Homepage Image">
       <form class="search" action="index.html" method="post">
-        <input id='search-bar' type="text" name="search-text" value="">
-        <input type="submit" name="" value="Submit">
-        <input type="submit" name="" value="I'm Feeling Lucky">
+        <div class="search-bar">
+          <a id='search-img'></a>
+          <input id='search-text' type="text" name="search-text" value="">
+        </div>
+        <div class ="search-buttons">
+          <input id='search-button' type="submit" name="" value="Google Search">
+          <input id='search-button' type="submit" name="" value="I'm Feeling Lucky">
+        </div>
       </form>
     </div>
+
+    <footer>
+      <ul class="nav-list">
+        <div id='left-nav'>
+          <li><a href="https://ads.google.com">Advertising</a></li>
+          <li><a href="https://google.com.business">Business</a></li>
+          <li><a href="https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a></li>
+        </div>
+        <div id='right-nav'>
+          <li><a href="https://policies.google.com/privacy">Privacy</a></li>
+          <li><a href="https://policies.google.com/terms">Terms</a></li>
+          <li><a href="./index.html">Settings</a></li>
+        </div>
+      </ul>
+    </footer>
   </body>
 </html>
